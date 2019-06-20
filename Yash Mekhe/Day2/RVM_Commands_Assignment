@@ -1,0 +1,20 @@
+RVM Commands:
+
+1] rvm gemset list # To list available gemsets for current ruby version.
+
+   rvm gemset list_all # To list available gemsets of all installed ruby versions.
+
+2] rvm gemset create test_project # Creeates the gemset called test_project
+   
+   rvm gemset use create test_project # To change to gemset we wish to use
+
+3] rvm use 2.0.0@test_project # To change ruby version and gemset at once in this eg, we use ruby
+
+   version 2.0.0 and gemset test_project
+
+4] gem install tictactoe -v 0.0.4 # installs gemset named tictactoe
+
+5] rvm get stable # Updates stable version of RVM
+
+   rvm get head # Updates Latest version of RVM
+

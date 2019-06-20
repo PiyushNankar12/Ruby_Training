@@ -1,0 +1,25 @@
+Additional Git Commands With Description :
+
+1. git rm <file-name> #removes commited file from branch
+2. git commit -m "add 1st line msg" -m "add 2nd line msg" -m "add 3rd line msg" and so on.... #to add multi line msg in commit
+3. git commit -a -m "Commit message" # Adds and Commits changes at once
+4. git mv <old-name> <new-name> # Renames old file with new file
+5. git fsck # Checks in git file system for corrupted objects
+6. git prune # Removes objects that are no longer pointed to by any object in any reachable branch
+7. git gc # Garbage collector for git repositiory , should be done occasionally
+8. git clone <Repository URL> <optional local path where to store> # Downloads Repository in specified path
+9. git archive --format=tar HEAD | (tar -xpf -) # To download repository in tar format, we can replace tar by zip to download in zip
+10. git tag -a v1.0 -m 'this is version 1.0 tag' # Tags a specific commit with a simple, human readable handle that never moves.
+11. git reset --hard HEAD #Resets your index and working directory to the state of your last commit.
+12. git stash save # This command temporarily stores all the modified tracked files.
+13. git push --all origin # This command pushes all branches to your remote repository.
+14. git checkout -b [branch name] # This command creates a new branch and also switches to it.
+15. git log –-follow <filename>  # This command lists version history for a file, including the renaming of files also.
+
+
+
+ 
+
+
+
+ 

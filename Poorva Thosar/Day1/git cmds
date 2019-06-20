@@ -1,0 +1,69 @@
+
+1)git clone ssh://git@github.com/[username]/[repository-name].git
+ -- create a local copy of remote repository
+
+2)git add -A
+ -- Add all new and changed files to staging area
+
+3)git rm -r [file-name.txt]
+ -- remove a file or folder
+
+4)git branch -d [branch name]
+ -- delete given branch
+
+5)git push origin --delete [branch name]
+ -- delete remote branch
+
+6)git checkout -b [branch name]
+ -- create new branch and switch to it
+
+7)git checkout -b [branch name] origin/[branch name]
+ -- clone remote branch and switch to it
+
+8)git checkout -
+ -- switch to branch last checked out
+
+9)git checkout -- [file-name.txt]
+ -- discard changes made to the file
+
+10)git merge [branch name]
+ -- merge a branch into active branch
+
+11)git merge [source branch] [destination branch]
+ -- merge source branch to destination branch
+
+12)git stash
+ -- stash changes in the dirty working directory
+
+13)git stash clear	
+ -- remove all stashed entries
+
+14)git push origin [branch name]	
+ -- push branch to remote repository
+
+15)git push -u origin [branch name]
+ -- Push changes to remote repository (and remember the branch)
+
+16)git push	
+ -- Push changes to remote repository (remembered branch)
+
+17)git push origin --delete [branch name]	
+ -- delete remote branch
+
+18)git pull	
+ -- update local repository to newest commit
+
+19)git remote add origin ssh://git@github.com/[username]/[repository-name].git	
+ -- add remote repository
+
+20)git remote set-url origin ssh://git@github.com/[username]/[repository-name].git	
+ -- set repository origin branch to ssh
+
+21)git log	
+ -- view changes
+
+22)git log --summary
+ --view detailed changes
+
+23)git diff [source branch] [target branch]	
+-- preview changes before merging
