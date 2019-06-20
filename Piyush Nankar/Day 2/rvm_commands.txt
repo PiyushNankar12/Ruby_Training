@@ -1,0 +1,19 @@
+1) rvm --trace :- toggle trace mode on to see EVERYTHING rvm is doing
+
+2) rvm pkg     :- install a dependency package
+
+3) rvm current :- print current ruby version and name of used gemsets
+
+4) rvm disk-usage  :- display disk space occupied by rvm
+
+5) rvm mount :- install ruby from external locations
+
+6) rvm remove :- remove ruby and downloaded sources
+
+7) rvm reset  :- remove all default and system settings
+
+8) rvm implode  :- removes the rvm installation completely
+
+9) rvm help :- shows all command of rvm
+
+10) rvm uninstall :- uninstall ruby, keeping it's sources
