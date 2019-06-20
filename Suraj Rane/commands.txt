@@ -1,0 +1,46 @@
+Git Commands
+
+1)git config
+This command sets the author name and email address respectively to be used with your commits.
+
+
+2)git diff
+This command shows the file differences which are not yet staged.
+
+3)git reset
+This command unstages the file, but it preserves the file contents.
+
+4)git rm
+This command deletes the file from your working directory and stages the deletion.
+
+5)git show
+This command shows the metadata and content changes of the specified commit.
+
+6)git tag
+This command is used to give tags to the specified commit.
+
+7)git merge
+This command merges the specified branch’s history into the current branch.
+
+8)git remote
+Usage: git remote add [variable name] [Remote Server Link]  
+This command is used to connect your local repository to the remote server.
+
+9)git stash
+Usage: git stash save  
+This command temporarily stores all the modified tracked files.
+
+Usage: git stash pop  
+This command restores the most recently stashed files.
+
+Usage: git stash list 
+This command lists all stashed changesets.
+
+Usage: git stash drop  
+This command discards the most recently stashed changeset.
+
+
+
+
+
+
