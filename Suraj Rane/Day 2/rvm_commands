@@ -1,0 +1,11 @@
+1)rvm info-Shows information for current ruby
+2)rvm reset-remove default and current settings, exit the shell.
+3)rvm install   - install one or many ruby versions
+4)rvm upgrade   - install new ruby, copy gemsets, make gems pristine, remove old ruby
+5)rvm reinstall - remove ruby, install it, make gems pristine
+6)rvm uninstall - uninstall one or many ruby versions, leaves their sources
+7)rvm remove    - uninstall one or many ruby versions and remove their sources
+8)rvm gemdir -switches to the gem directory of current ruby
+9)rvm implode-removes the rvm installation completely
+10)rvm reload-reload rvm source itself
+
